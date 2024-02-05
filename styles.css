@@ -1,0 +1,176 @@
+*,::before,::after{
+  margin:0;
+  padding:0;
+  color:black;
+  font-family: "Montserrat";
+}
+#nav-bar{
+  position:fixed;
+  width: 100%;
+  height: 10%;
+  background-color: rgb(115, 107, 107);
+  text-align: right;
+  border-radius: 4px;
+  padding: 0.4rem;
+}
+img{
+  position: fixed;
+  width:22%;
+  z-index: 1;
+  margin:1.1rem
+}
+.nav-link{
+  display:flex;
+  justify-content:flex-end;
+  padding-right:10px;
+}
+@media (min-width:480px){
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+  font-size: 23px;
+  margin: 1rem;
+}
+body{
+ background-color: #3881BC;
+}
+#heading{
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 900;
+  padding-top: 6rem;
+}
+#video{
+  width:50%;
+  display: block;
+  margin:5rem auto;
+}
+#features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3,#features-desc{
+  margin:7px;
+}
+#features-desc{
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+form{
+  margin:1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+input{
+  margin-bottom: 1rem;
+}
+#submit{
+  cursor:pointer;
+  background-color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+#pricing{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 300px;
+  grid-gap:10px;
+}
+.cards{
+  background-color: rgb(129, 129, 61);
+  border: 2px solid black;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+
+}
+#box-pricing{
+  display: flex;
+  justify-content: center;
+  margin:1rem;
+}
+.card-type{
+  background-color: #202a32;
+  font-family: "Montserrat";
+  font-weight: 650;
+  color:white;
+  padding:1rem;
+  border-radius: 5px;
+}
+.card-dec{
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+/* button{
+  cursor:pointer;
+  background-color: yellow;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Montserrat";
+  
+} */
+
+
+/* CSS */
+button {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 50%;
+  will-change: transform;
+}
+
+button:disabled {
+  pointer-events: none;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+#email{
+  width:20%;
+  min-height:20px;
+  margin:1rem
+}
